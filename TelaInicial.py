@@ -1,10 +1,11 @@
-# tela_inicial.py
+
 import tkinter as tk
 from utilitarios import resetarTela
 from tela_instrucoes import TelaInstrucoes
 
 
 class TelaInicial:
+    
     def __init__(self, root):
         self.root = root
         self.root.title("The Math Game")
@@ -34,6 +35,7 @@ class TelaInicial:
             font=("Arial", 8)
         )
         rodape.pack(side="bottom", pady=10)
+        
 
     def abrir_tela_instrucoes(self):
         tela_instrucoes = TelaInstrucoes(self.root)

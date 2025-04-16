@@ -1,8 +1,8 @@
-# utilitarios.py
+
 import tkinter as tk
 
 def resetarTela(root):
-    """Destrói todos os widgets filhos da janela fornecida."""
+  
     for widget in root.winfo_children():
         widget.destroy()
 

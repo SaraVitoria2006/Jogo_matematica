@@ -1,6 +1,6 @@
 import tkinter as tk
 from utilitarios import resetarTela
-from tela_jogo import TelaJogo  # Importe a TelaJogo com o nome correto
+from tela_jogo import TelaJogo 
 
 class TelaInstrucoes:
     def __init__(self, root):
